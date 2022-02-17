@@ -1,10 +1,10 @@
 import styles from "../../styles/index.css"
 
-export function links() {
+export const links = () => {
   return [{rel: "stylesheet", href: styles}]
 }
 
-export default function Index() {
+const Index = () => {
   return (
     <div className="container">
       <h1>Home Page</h1>
@@ -12,3 +12,5 @@ export default function Index() {
     </div>
   );
 }
+
+export default Index;
