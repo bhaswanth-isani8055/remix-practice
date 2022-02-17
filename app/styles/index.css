@@ -1,1 +1,1 @@
-.container h2{color:blue}.container h1{color:red}
+.container{font-family:"Poppins";font-weight:600}.primary-btn{padding:10px 20px;background-color:lightgreen;border:none;margin:10px;border-radius:4px;text-decoration:none;color:green}.primary-btn:hover{cursor:pointer}

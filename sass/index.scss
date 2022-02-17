@@ -1,9 +1,18 @@
 .container {
-  h2 {
-    color: blue;
-  }
+  font-family: "Poppins";
+  font-weight: 600;
+}
 
-  h1 {
-    color: red;
+.primary-btn {
+  padding: 10px 20px;
+  background-color: lightgreen;
+  border: none;
+  margin: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: green;
+
+  &:hover {
+    cursor: pointer;
   }
 }

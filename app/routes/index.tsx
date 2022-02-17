@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styles from "../styles/index.css"
 
 export const links = () => {
@@ -7,8 +8,7 @@ export const links = () => {
 const Index = () => {
   return (
     <div className="container">
-      <h1>Home Page</h1>
-      <h2>Home Page</h2>
+      <Link to="/movies" className="primary-btn">Go to Movies</Link>
     </div>
   );
 }
