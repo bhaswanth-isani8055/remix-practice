@@ -1,4 +1,4 @@
-import styles from "../../styles/index.css"
+import styles from "../styles/index.css"
 
 export const links = () => {
   return [{rel: "stylesheet", href: styles}]
